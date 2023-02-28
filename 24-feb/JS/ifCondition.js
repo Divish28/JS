@@ -1,14 +1,14 @@
 const input=document.querySelector("input")
 const button=document.querySelector("button")
-const Statement=document.querySelector("p")
+const statement=document.querySelector("p")
 
 button.addEventListener("click",Find)
 
 function Find(){
-    if(input>0){
-        Statement.textContent="It is positive number"
+    if(input<0){
+        statement.textContent = "It is negative number"
     }
     else{
-    Statement.textContent =  "It is negative number"
+    statement.textContent =  "It is positive number"
 }
 }

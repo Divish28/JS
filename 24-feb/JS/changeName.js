@@ -1,5 +1,5 @@
 const button = document.querySelector('button');
-const para = document.querySelector('P');
+const para = document.querySelector('p');
 
 button.addEventListener('click', updateName);
 
