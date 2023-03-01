@@ -9,14 +9,14 @@ const promise=new Promise(function(resolve,reject){
 })
 
 promise
-.then(function display(output)
+.then(function(output)
 {
     console.log(output)
 })
-.catch(function catching(output)
+.catch(function(output)
 {
     console.log(output)
 })
-.finally(function final(){
+.finally(function(){
     console.log("Whatever the result finally will execute")
 })
