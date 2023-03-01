@@ -13,6 +13,9 @@ promise
 {
     console.log(output)
 })
+.then(function(){
+    console.log("We can use multiple then if promise is resolved")
+})
 .catch(function(output)
 {
     console.log(output)
